@@ -1,0 +1,241 @@
+,metric,measure,units,heat,volt,nice
+0,Create/teardown of 100 threads,521.919727,us / thread,41.2,1.3500,so nice
+1,Create/teardown of 100 threads,516.53862,us / thread,42.2,1.3500,so nice
+2,Create/teardown of 100 threads,517.9095269999999,us / thread,42.8,1.3500,so nice
+3,Create/teardown of 100 threads,520.131588,us / thread,43.3,1.3500,so nice
+4,Create/teardown of 100 threads,517.559052,us / thread,43.3,1.3500,so nice
+5,Create/teardown of 100 threads,524.51849,us / thread,43.3,1.3500,so nice
+6,Create/teardown of 100 threads,520.241261,us / thread,44.4,1.3500,so nice
+7,Create/teardown of 100 threads,516.7818070000001,us / thread,44.4,1.3500,so nice
+8,Create/teardown of 100 threads,521.199703,us / thread,44.4,1.3500,so nice
+9,Create/teardown of 100 threads,524.499416,us / thread,44.4,1.3500,so nice
+10,Create/teardown of 100 threads,517.7497860000001,us / thread,44.4,1.3500,so nice
+11,Create/teardown of 100 threads,523.228645,us / thread,44.4,1.3500,so nice
+12,Create/teardown of 100 threads,518.269539,us / thread,45.5,1.3500,so nice
+13,Create/teardown of 100 threads,520.031452,us / thread,45.5,1.3500,so nice
+14,Create/teardown of 100 threads,522.00079,us / thread,44.9,1.3500,so nice
+15,Create/teardown of 100 threads,521.299839,us / thread,45.5,1.3500,so nice
+16,Create/teardown of 100 threads,522.658825,us / thread,45.5,1.3500,so nice
+17,Create/teardown of 100 threads,525.019169,us / thread,45.5,1.3500,so nice
+18,Create/teardown of 100 threads,524.778366,us / thread,46.0,1.3500,so nice
+19,Create/teardown of 100 threads,520.889759,us / thread,46.0,1.3500,so nice
+20,Create/teardown of 100 threads,524.0201950000001,us / thread,45.5,1.3500,so nice
+21,Create/teardown of 100 threads,522.499084,us / thread,46.5,1.3500,so nice
+22,Create/teardown of 100 threads,521.991253,us / thread,46.5,1.3500,so nice
+23,Create/teardown of 100 threads,525.710583,us / thread,46.5,1.3500,so nice
+24,Create/teardown of 100 threads,525.898933,us / thread,46.5,1.3500,so nice
+25,Create/teardown of 100 threads,525.1097679999999,us / thread,46.5,1.3500,so nice
+26,Create/teardown of 100 threads,525.3601070000001,us / thread,46.5,1.3500,so nice
+27,Create/teardown of 100 threads,524.189472,us / thread,46.5,1.3500,so nice
+28,Create/teardown of 100 threads,526.4997480000001,us / thread,46.5,1.3500,so nice
+29,Create/teardown of 100 threads,520.961285,us / thread,46.5,1.3500,so nice
+30,Create/teardown of 100 processes,2040.479183,us / process,47.1,1.3500,so nice
+31,Create/teardown of 100 processes,1945.7316399999997,us / process,46.5,1.3500,so nice
+32,Create/teardown of 100 processes,2063.550949,us / process,46.5,1.3500,so nice
+33,Create/teardown of 100 processes,2043.030262,us / process,46.5,1.3500,so nice
+34,Create/teardown of 100 processes,2073.631287,us / process,46.5,1.3500,so nice
+35,Create/teardown of 100 processes,2081.758976,us / process,47.1,1.3500,so nice
+36,Create/teardown of 100 processes,2036.5309719999998,us / process,47.1,1.3500,so nice
+37,Create/teardown of 100 processes,2023.139,us / process,47.6,1.3500,so nice
+38,Create/teardown of 100 processes,2069.990635,us / process,47.1,1.3500,so nice
+39,Create/teardown of 100 processes,1939.148903,us / process,47.1,1.3500,so nice
+40,Create/teardown of 100 processes,2054.409981,us / process,47.1,1.3500,so nice
+41,Create/teardown of 100 processes,2040.7199859999998,us / process,47.6,1.3500,so nice
+42,Create/teardown of 100 processes,2036.230564,us / process,47.6,1.3500,so nice
+43,Create/teardown of 100 processes,2069.990635,us / process,47.1,1.3500,so nice
+44,Create/teardown of 100 processes,2068.3383940000003,us / process,47.1,1.3500,so nice
+45,Create/teardown of 100 processes,2053.458691,us / process,47.6,1.3500,so nice
+46,Create/teardown of 100 processes,2060.101032,us / process,47.6,1.3500,so nice
+47,Create/teardown of 100 processes,2045.440674,us / process,47.6,1.3500,so nice
+48,Create/teardown of 100 processes,2056.319714,us / process,47.6,1.3500,so nice
+49,Create/teardown of 100 processes,2057.0182800000002,us / process,47.6,1.3500,so nice
+50,Create/teardown of 100 processes,2035.1815219999999,us / process,47.6,1.3500,so nice
+51,Create/teardown of 100 processes,2054.669857,us / process,47.6,1.3500,so nice
+52,Create/teardown of 100 processes,1950.70982,us / process,47.6,1.3500,so nice
+53,Create/teardown of 100 processes,2098.169327,us / process,47.6,1.3500,so nice
+54,Create/teardown of 100 processes,2049.939632,us / process,47.6,1.3500,so nice
+55,Create/teardown of 100 processes,2046.6303829999997,us / process,47.6,1.3500,so nice
+56,Create/teardown of 100 processes,2046.961784,us / process,48.2,1.3500,so nice
+57,Create/teardown of 100 processes,2057.39975,us / process,48.2,1.3500,so nice
+58,Create/teardown of 100 processes,2041.070461,us / process,48.2,1.3500,so nice
+59,Create/teardown of 100 processes,2049.031258,us / process,47.6,1.3500,so nice
+60,Launch 100 programs,6644.999981,us / program,48.2,1.3500,so nice
+61,Launch 100 programs,6724.591254999999,us / program,47.6,1.3500,so nice
+62,Launch 100 programs,6842.970848000001,us / program,47.6,1.3500,so nice
+63,Launch 100 programs,6585.960388,us / program,47.6,1.3500,so nice
+64,Launch 100 programs,6714.48946,us / program,48.2,1.3500,so nice
+65,Launch 100 programs,6670.639515,us / program,47.6,1.3500,so nice
+66,Launch 100 programs,6865.720748999999,us / program,47.6,1.3500,so nice
+67,Launch 100 programs,6833.729744,us / program,48.2,1.3500,so nice
+68,Launch 100 programs,6719.989777,us / program,48.7,1.3500,so nice
+69,Launch 100 programs,6736.190318999999,us / program,47.6,1.3500,so nice
+70,Launch 100 programs,6714.019775,us / program,47.6,1.3500,so nice
+71,Launch 100 programs,6625.740528,us / program,48.7,1.3500,so nice
+72,Launch 100 programs,6705.439090999999,us / program,48.2,1.3500,so nice
+73,Launch 100 programs,6774.890423000001,us / program,48.7,1.3500,so nice
+74,Launch 100 programs,6617.980003,us / program,48.2,1.3500,so nice
+75,Launch 100 programs,6613.049507,us / program,48.2,1.3500,so nice
+76,Launch 100 programs,6620.140076,us / program,47.6,1.3500,so nice
+77,Launch 100 programs,6689.231396,us / program,48.7,1.3500,so nice
+78,Launch 100 programs,6622.350216,us / program,48.2,1.3500,so nice
+79,Launch 100 programs,6626.389027,us / program,48.2,1.3500,so nice
+80,Launch 100 programs,6715.869904000001,us / program,48.7,1.3500,so nice
+81,Launch 100 programs,6626.679897,us / program,48.2,1.3500,so nice
+82,Launch 100 programs,6654.760838,us / program,48.7,1.3500,so nice
+83,Launch 100 programs,6668.0383679999995,us / program,47.6,1.3500,so nice
+84,Launch 100 programs,6590.781212,us / program,48.7,1.3500,so nice
+85,Launch 100 programs,6625.158786999999,us / program,48.7,1.3500,so nice
+86,Launch 100 programs,6690.00864,us / program,47.6,1.3500,so nice
+87,Launch 100 programs,6785.2211,us / program,48.7,1.3500,so nice
+88,Launch 100 programs,6733.560562000001,us / program,48.2,1.3500,so nice
+89,Launch 100 programs,6704.440117,us / program,48.7,1.3500,so nice
+90,Allocate/free 1000000 memory chunks (4-128 bytes),1340.358019,ns / alloc,48.7,1.3500,so nice
+91,Allocate/free 1000000 memory chunks (4-128 bytes),1317.6739220000002,ns / alloc,48.7,1.3500,so nice
+92,Allocate/free 1000000 memory chunks (4-128 bytes),1351.94397,ns / alloc,48.7,1.3500,so nice
+93,Allocate/free 1000000 memory chunks (4-128 bytes),1334.692955,ns / alloc,48.7,1.3500,so nice
+94,Allocate/free 1000000 memory chunks (4-128 bytes),1326.395035,ns / alloc,48.7,1.3500,so nice
+95,Allocate/free 1000000 memory chunks (4-128 bytes),1313.884974,ns / alloc,48.7,1.3500,so nice
+96,Allocate/free 1000000 memory chunks (4-128 bytes),1315.863132,ns / alloc,48.7,1.3500,so nice
+97,Allocate/free 1000000 memory chunks (4-128 bytes),1364.866972,ns / alloc,48.7,1.3500,so nice
+98,Allocate/free 1000000 memory chunks (4-128 bytes),1340.211153,ns / alloc,48.7,1.3500,so nice
+99,Allocate/free 1000000 memory chunks (4-128 bytes),1336.673021,ns / alloc,49.2,1.3500,so nice
+100,Allocate/free 1000000 memory chunks (4-128 bytes),1547.688007,ns / alloc,48.7,1.3500,so nice
+101,Allocate/free 1000000 memory chunks (4-128 bytes),1317.74497,ns / alloc,49.2,1.3500,so nice
+102,Allocate/free 1000000 memory chunks (4-128 bytes),1334.5360759999999,ns / alloc,49.2,1.3500,so nice
+103,Allocate/free 1000000 memory chunks (4-128 bytes),1356.557131,ns / alloc,49.2,1.3500,so nice
+104,Allocate/free 1000000 memory chunks (4-128 bytes),1343.714952,ns / alloc,49.2,1.3500,so nice
+105,Allocate/free 1000000 memory chunks (4-128 bytes),1566.1649699999998,ns / alloc,48.7,1.3500,so nice
+106,Allocate/free 1000000 memory chunks (4-128 bytes),1326.757193,ns / alloc,49.2,1.3500,so nice
+107,Allocate/free 1000000 memory chunks (4-128 bytes),1315.832138,ns / alloc,49.2,1.3500,so nice
+108,Allocate/free 1000000 memory chunks (4-128 bytes),1323.971987,ns / alloc,49.2,1.3500,so nice
+109,Allocate/free 1000000 memory chunks (4-128 bytes),1326.097965,ns / alloc,49.2,1.3500,so nice
+110,Allocate/free 1000000 memory chunks (4-128 bytes),1340.2979369999998,ns / alloc,49.2,1.3500,so nice
+111,Allocate/free 1000000 memory chunks (4-128 bytes),1353.2450199999998,ns / alloc,49.2,1.3500,so nice
+112,Allocate/free 1000000 memory chunks (4-128 bytes),1327.517033,ns / alloc,49.2,1.3500,so nice
+113,Allocate/free 1000000 memory chunks (4-128 bytes),1315.6178,ns / alloc,49.2,1.3500,so nice
+114,Allocate/free 1000000 memory chunks (4-128 bytes),1317.566872,ns / alloc,49.2,1.3500,so nice
+115,Allocate/free 1000000 memory chunks (4-128 bytes),1354.962111,ns / alloc,49.8,1.3500,so nice
+116,Allocate/free 1000000 memory chunks (4-128 bytes),1329.602003,ns / alloc,49.8,1.3500,so nice
+117,Allocate/free 1000000 memory chunks (4-128 bytes),1316.4598939999998,ns / alloc,49.8,1.3500,so nice
+118,Allocate/free 1000000 memory chunks (4-128 bytes),1314.543009,ns / alloc,49.2,1.3500,so nice
+119,Allocate/free 1000000 memory chunks (4-128 bytes),1348.999977,ns / alloc,49.2,1.3500,so nice
+120,Create/teardown of 100 threads,526.2994769999999,us / thread,49.2,1.3500,not nice
+121,Create/teardown of 100 threads,525.319576,us / thread,49.2,1.3500,not nice
+122,Create/teardown of 100 threads,524.9881740000001,us / thread,49.8,1.3500,not nice
+123,Create/teardown of 100 threads,524.9404910000001,us / thread,49.8,1.3500,not nice
+124,Create/teardown of 100 threads,522.618294,us / thread,48.7,1.3500,not nice
+125,Create/teardown of 100 threads,523.309708,us / thread,49.8,1.3500,not nice
+126,Create/teardown of 100 threads,525.5794530000001,us / thread,49.2,1.3500,not nice
+127,Create/teardown of 100 threads,525.150299,us / thread,49.2,1.3500,not nice
+128,Create/teardown of 100 threads,529.139042,us / thread,49.2,1.3500,not nice
+129,Create/teardown of 100 threads,518.541336,us / thread,49.2,1.3500,not nice
+130,Create/teardown of 100 threads,524.170399,us / thread,48.7,1.3500,not nice
+131,Create/teardown of 100 threads,526.31855,us / thread,49.2,1.3500,not nice
+132,Create/teardown of 100 threads,521.070957,us / thread,49.8,1.3500,not nice
+133,Create/teardown of 100 threads,516.290665,us / thread,49.8,1.3500,not nice
+134,Create/teardown of 100 threads,523.6983299999999,us / thread,49.2,1.3500,not nice
+135,Create/teardown of 100 threads,522.6397509999999,us / thread,48.7,1.3500,not nice
+136,Create/teardown of 100 threads,520.482063,us / thread,48.7,1.3500,not nice
+137,Create/teardown of 100 threads,521.039963,us / thread,49.2,1.3500,not nice
+138,Create/teardown of 100 threads,526.3090129999999,us / thread,49.8,1.3500,not nice
+139,Create/teardown of 100 threads,522.71843,us / thread,49.2,1.3500,not nice
+140,Create/teardown of 100 threads,523.309708,us / thread,49.8,1.3500,not nice
+141,Create/teardown of 100 threads,524.721146,us / thread,49.2,1.3500,not nice
+142,Create/teardown of 100 threads,528.290272,us / thread,49.2,1.3500,not nice
+143,Create/teardown of 100 threads,526.990891,us / thread,49.8,1.3500,not nice
+144,Create/teardown of 100 threads,529.379845,us / thread,49.2,1.3500,not nice
+145,Create/teardown of 100 threads,524.687767,us / thread,49.8,1.3500,not nice
+146,Create/teardown of 100 threads,527.658463,us / thread,49.2,1.3500,not nice
+147,Create/teardown of 100 threads,522.289276,us / thread,49.2,1.3500,not nice
+148,Create/teardown of 100 threads,524.4708059999999,us / thread,49.2,1.3500,not nice
+149,Create/teardown of 100 threads,525.848866,us / thread,49.8,1.3500,not nice
+150,Create/teardown of 100 processes,2124.578953,us / process,49.2,1.3500,not nice
+151,Create/teardown of 100 processes,2125.160694,us / process,49.8,1.3500,not nice
+152,Create/teardown of 100 processes,2066.8792719999997,us / process,48.7,1.3500,not nice
+153,Create/teardown of 100 processes,2098.479271,us / process,48.7,1.3500,not nice
+154,Create/teardown of 100 processes,2078.800201,us / process,49.2,1.3500,not nice
+155,Create/teardown of 100 processes,2067.3799510000003,us / process,49.2,1.3500,not nice
+156,Create/teardown of 100 processes,2068.347931,us / process,49.2,1.3500,not nice
+157,Create/teardown of 100 processes,2064.5117760000003,us / process,49.2,1.3500,not nice
+158,Create/teardown of 100 processes,2058.780193,us / process,49.2,1.3500,not nice
+159,Create/teardown of 100 processes,2096.5194699999997,us / process,49.2,1.3500,not nice
+160,Create/teardown of 100 processes,2050.950527,us / process,49.2,1.3500,not nice
+161,Create/teardown of 100 processes,2041.590214,us / process,49.2,1.3500,not nice
+162,Create/teardown of 100 processes,2062.020302,us / process,48.7,1.3500,not nice
+163,Create/teardown of 100 processes,2070.379257,us / process,49.2,1.3500,not nice
+164,Create/teardown of 100 processes,1951.5991210000002,us / process,49.2,1.3500,not nice
+165,Create/teardown of 100 processes,2074.6707920000003,us / process,49.2,1.3500,not nice
+166,Create/teardown of 100 processes,1950.829029,us / process,49.2,1.3500,not nice
+167,Create/teardown of 100 processes,2067.577839,us / process,48.7,1.3500,not nice
+168,Create/teardown of 100 processes,2054.600716,us / process,49.2,1.3500,not nice
+169,Create/teardown of 100 processes,2109.5204350000004,us / process,49.2,1.3500,not nice
+170,Create/teardown of 100 processes,2111.999989,us / process,49.8,1.3500,not nice
+171,Create/teardown of 100 processes,2123.041153,us / process,49.2,1.3500,not nice
+172,Create/teardown of 100 processes,2116.649151,us / process,49.2,1.3500,not nice
+173,Create/teardown of 100 processes,2074.439526,us / process,49.2,1.3500,not nice
+174,Create/teardown of 100 processes,2044.389248,us / process,49.2,1.3500,not nice
+175,Create/teardown of 100 processes,2065.9089089999998,us / process,49.2,1.3500,not nice
+176,Create/teardown of 100 processes,2099.339962,us / process,48.7,1.3500,not nice
+177,Create/teardown of 100 processes,2100.7299420000004,us / process,49.2,1.3500,not nice
+178,Create/teardown of 100 processes,1963.689327,us / process,49.2,1.3500,not nice
+179,Create/teardown of 100 processes,2113.699913,us / process,49.2,1.3500,not nice
+180,Launch 100 programs,6590.058804,us / program,49.2,1.3500,not nice
+181,Launch 100 programs,6666.660309000001,us / program,49.8,1.3500,not nice
+182,Launch 100 programs,6748.092175,us / program,49.2,1.3500,not nice
+183,Launch 100 programs,6737.749577,us / program,48.7,1.3500,not nice
+184,Launch 100 programs,6758.849620999999,us / program,48.7,1.3500,not nice
+185,Launch 100 programs,6741.72163,us / program,49.8,1.3500,not nice
+186,Launch 100 programs,6619.641781,us / program,49.8,1.3500,not nice
+187,Launch 100 programs,6627.840996,us / program,48.7,1.3500,not nice
+188,Launch 100 programs,6615.581512,us / program,49.2,1.3500,not nice
+189,Launch 100 programs,6635.408401,us / program,48.7,1.3500,not nice
+190,Launch 100 programs,6617.968082,us / program,49.8,1.3500,not nice
+191,Launch 100 programs,6578.3405299999995,us / program,49.2,1.3500,not nice
+192,Launch 100 programs,6591.079235,us / program,48.7,1.3500,not nice
+193,Launch 100 programs,6764.230728,us / program,49.2,1.3500,not nice
+194,Launch 100 programs,6879.401206999999,us / program,49.2,1.3500,not nice
+195,Launch 100 programs,6754.510403,us / program,49.2,1.3500,not nice
+196,Launch 100 programs,6817.6603319999995,us / program,49.8,1.3500,not nice
+197,Launch 100 programs,6731.219292,us / program,48.7,1.3500,not nice
+198,Launch 100 programs,6614.129543,us / program,49.2,1.3500,not nice
+199,Launch 100 programs,6621.479988,us / program,49.2,1.3500,not nice
+200,Launch 100 programs,6756.198406,us / program,49.2,1.3500,not nice
+201,Launch 100 programs,6637.678146,us / program,48.7,1.3500,not nice
+202,Launch 100 programs,6626.23167,us / program,49.2,1.3500,not nice
+203,Launch 100 programs,6708.929539,us / program,49.8,1.3500,not nice
+204,Launch 100 programs,6821.7396739999995,us / program,49.2,1.3500,not nice
+205,Launch 100 programs,6637.918949,us / program,49.2,1.3500,not nice
+206,Launch 100 programs,6602.020264,us / program,48.7,1.3500,not nice
+207,Launch 100 programs,6635.119915,us / program,49.2,1.3500,not nice
+208,Launch 100 programs,6606.259346,us / program,49.2,1.3500,not nice
+209,Launch 100 programs,6713.681220999999,us / program,48.7,1.3500,not nice
+210,Allocate/free 1000000 memory chunks (4-128 bytes),1315.749168,ns / alloc,49.2,1.3500,not nice
+211,Allocate/free 1000000 memory chunks (4-128 bytes),1318.106174,ns / alloc,49.8,1.3500,not nice
+212,Allocate/free 1000000 memory chunks (4-128 bytes),1327.093124,ns / alloc,49.2,1.3500,not nice
+213,Allocate/free 1000000 memory chunks (4-128 bytes),1329.059839,ns / alloc,49.8,1.3500,not nice
+214,Allocate/free 1000000 memory chunks (4-128 bytes),1369.519949,ns / alloc,49.8,1.3500,not nice
+215,Allocate/free 1000000 memory chunks (4-128 bytes),1315.078974,ns / alloc,49.8,1.3500,not nice
+216,Allocate/free 1000000 memory chunks (4-128 bytes),1318.065882,ns / alloc,49.8,1.3500,not nice
+217,Allocate/free 1000000 memory chunks (4-128 bytes),1539.0088560000002,ns / alloc,49.8,1.3500,not nice
+218,Allocate/free 1000000 memory chunks (4-128 bytes),1350.921869,ns / alloc,49.8,1.3500,not nice
+219,Allocate/free 1000000 memory chunks (4-128 bytes),1326.8089289999998,ns / alloc,49.2,1.3500,not nice
+220,Allocate/free 1000000 memory chunks (4-128 bytes),1346.060991,ns / alloc,49.8,1.3500,not nice
+221,Allocate/free 1000000 memory chunks (4-128 bytes),1381.437063,ns / alloc,49.8,1.3500,not nice
+222,Allocate/free 1000000 memory chunks (4-128 bytes),1342.628956,ns / alloc,49.8,1.3500,not nice
+223,Allocate/free 1000000 memory chunks (4-128 bytes),1315.939903,ns / alloc,49.8,1.3500,not nice
+224,Allocate/free 1000000 memory chunks (4-128 bytes),1344.308853,ns / alloc,49.8,1.3500,not nice
+225,Allocate/free 1000000 memory chunks (4-128 bytes),1359.707832,ns / alloc,49.8,1.3500,not nice
+226,Allocate/free 1000000 memory chunks (4-128 bytes),1335.9270099999999,ns / alloc,49.8,1.3500,not nice
+227,Allocate/free 1000000 memory chunks (4-128 bytes),1332.996845,ns / alloc,49.8,1.3500,not nice
+228,Allocate/free 1000000 memory chunks (4-128 bytes),1538.904905,ns / alloc,49.8,1.3500,not nice
+229,Allocate/free 1000000 memory chunks (4-128 bytes),1358.558893,ns / alloc,49.8,1.3500,not nice
+230,Allocate/free 1000000 memory chunks (4-128 bytes),1343.106985,ns / alloc,49.2,1.3500,not nice
+231,Allocate/free 1000000 memory chunks (4-128 bytes),1317.80386,ns / alloc,50.8,1.3500,not nice
+232,Allocate/free 1000000 memory chunks (4-128 bytes),1354.588032,ns / alloc,49.8,1.3500,not nice
+233,Allocate/free 1000000 memory chunks (4-128 bytes),1326.071978,ns / alloc,49.8,1.3500,not nice
+234,Allocate/free 1000000 memory chunks (4-128 bytes),1345.3910349999999,ns / alloc,49.8,1.3500,not nice
+235,Allocate/free 1000000 memory chunks (4-128 bytes),1315.908909,ns / alloc,50.3,1.3500,not nice
+236,Allocate/free 1000000 memory chunks (4-128 bytes),1331.5868380000002,ns / alloc,50.3,1.3500,not nice
+237,Allocate/free 1000000 memory chunks (4-128 bytes),1343.509197,ns / alloc,49.8,1.3500,not nice
+238,Allocate/free 1000000 memory chunks (4-128 bytes),1324.986935,ns / alloc,49.8,1.3500,not nice
+239,Allocate/free 1000000 memory chunks (4-128 bytes),1446.613073,ns / alloc,49.8,1.3500,not nice
