@@ -13,17 +13,23 @@ data = pd.concat([data1, data2])
 data.reset_index(inplace = True, drop=True)
 data['Iteration'] = data.index
 data['Priority'] = data['nice'].apply(lambda x: 'Nice' if x == 'so nice' else 'Not Nice')
+data['metric'] = data['metric'].apply(lambda x: 
+        'Allocate/free 1000000 memory chunks' if x == 'Allocate/free 1000000 memory chunks (4-128 bytes)' else x)
 data.columns
 data.loc[1].T
 
 sea.set_palette("Dark2")
 for i, met in enumerate(data.metric.unique()):
     plt.clf()
+    plt.figure(figsize=(4,3.5))
+    plt.subplots_adjust(bottom=0.15, left=0.18)
     plot = sea.boxplot(y='measure', x='GPU Memory', hue = 'Priority', data=data[data.metric == met])
     plot.set_title(met)
     yl = data[data.metric == met]['units'].values[0] + "  <Lower is Better>"
     plot.set_ylabel(yl)
     plot.figure.savefig("osbench_" + str(i) + ".png", transparent=True)
+
+plt.close('all')
 
 plt.clf()
 #plt.figure(figsize=(20,9))
