@@ -32,7 +32,7 @@ for i, met in enumerate(data.metric.unique()):
 plt.close('all')
 
 plt.clf()
-#plt.figure(figsize=(20,9))
+plt.figure(figsize=(8,5))
 plot = sea.lineplot(
         y='heat', 
         x='Iteration', 
@@ -45,7 +45,7 @@ plt.savefig("heat_vs_time.png", transparent=True)
 
 for i, met in enumerate(data.metric.unique()):
     plt.clf()
-    #plt.figure(figsize=(20,9))
+    plt.figure(figsize=(5,4))
     plot = sea.scatterplot(
             y='heat', 
             x='measure', 
