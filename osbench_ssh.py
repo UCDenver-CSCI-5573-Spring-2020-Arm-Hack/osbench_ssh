@@ -39,6 +39,14 @@ for command in test_commands:
     results = []
     for line in stdout:
         results.append(line.strip('\n'))
+    stdin, stdout, stderr = client.exec_command('/opt/vc/bin/vcgencmd measure_temp')
+    for line in stdout:
+        h = re.findall(r'[\d+.]+', line)[0]
+    heat.append(h)
+    stdin, stdout, stderr = client.exec_command('/opt/vc/bin/vcgencmd measure_volts')
+    for line in stdout:
+        v = re.findall(r'[\d+.]+', line)[0]
+    volt.append(v)
     bad, good = results[0].split(' ', 1)
     good, bad = good.split('.', 1)
     metric.append(good)
@@ -51,9 +59,12 @@ data = pd.DataFrame()
 data['metric'] = metric
 data['measure'] = pd.to_numeric(measure)
 data['units'] = units
+data['heat'] = heat
+data['volt'] = volt
 nice_flag = ['so nice' for c in TESTS for i in range(ITERATIONS)]
 nice_flag = nice_flag + ['not nice' for c in TESTS for i in range(ITERATIONS)]
 data['nice'] = nice_flag
+sdat = data[['metric', 'nice', 'units', 'measure']]
 
 # Aggregate statistics
 data_av = data.groupby(['metric', 'units', 'nice']).mean()
@@ -62,6 +73,7 @@ data_av.columns = ['mean']
 data_sd.columns = ['standard deviation']
 data_stats = data_av.join(data_sd)
 
+data.to_feather(OUT_FILE_NAME + ".ftr")
 data.to_csv(OUT_FILE_NAME + ".csv")
 data_stats.to_csv(OUT_FILE_NAME + "_stats" + ".csv")
 
