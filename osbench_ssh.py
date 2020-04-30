@@ -1,6 +1,8 @@
 import base64
 import paramiko
 import pandas as pd
+import re 
+from time import sleep
 
 # DON'T change these settings!
 TESTS = ["create_threads",
@@ -11,6 +13,8 @@ TESTS = ["create_threads",
 ITERATIONS = 30
 
 # DO change this part!
+# the key is tricky just run the program 
+# and copy the correct one from the error
 OSB_PATH = "/path/to/osbench/out/"
 IP_NAME = '192.168.0.102' # or whatever
 OUT_FILE_NAME = "baseline_run_3-19" # you may want to date this file
@@ -25,7 +29,7 @@ nicety = "nice -n -20 "
 test_commands = [ OSB_PATH + c for c in TESTS for i in range(ITERATIONS)]
 test_commands =  test_commands + [ nicety + OSB_PATH + c for c in TESTS for i in range(ITERATIONS)]
 
-# Connects to the server
+# Connects to the pi
 client = paramiko.SSHClient()
 client.get_host_keys().add(IP_NAME, 'ssh-rsa', KEY)
 client.connect(IP_NAME, username=ROOTUSER, password=ROOTPASS)
@@ -34,7 +38,25 @@ client.connect(IP_NAME, username=ROOTUSER, password=ROOTPASS)
 metric = []
 measure = []
 units = []
-for command in test_commands:
+heat = []
+volt = []
+
+# Set the baseline temp that must be matched
+stdin, stdout, stderr = client.exec_command('/opt/vc/bin/vcgencmd measure_temp')
+for line in stdout:
+    h = re.findall(r'[\d+.]+', line)[0]
+
+base_line_temp = h
+
+for i, command in enumerate(test_commands):
+    # check the temp every test and make it cool off
+    if not ((i+1) % (ITERATIONS)):
+        stdin, stdout, stderr = client.exec_command('/opt/vc/bin/vcgencmd measure_temp')
+        for line in stdout:
+            h = re.findall(r'[\d+.]+', line)[0]
+        while base_line_temp < h:
+            print(h)
+            sleep(1)
     stdin, stdout, stderr = client.exec_command(command)
     results = []
     for line in stdout:
