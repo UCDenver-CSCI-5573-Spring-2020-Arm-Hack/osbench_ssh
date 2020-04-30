@@ -50,13 +50,17 @@ base_line_temp = h
 
 for i, command in enumerate(test_commands):
     # check the temp every test and make it cool off
+    print(i)
     if not ((i+1) % (ITERATIONS)):
         stdin, stdout, stderr = client.exec_command('/opt/vc/bin/vcgencmd measure_temp')
         for line in stdout:
             h = re.findall(r'[\d+.]+', line)[0]
         while base_line_temp < h:
             print(h)
-            sleep(1)
+            stdin, stdout, stderr = client.exec_command('/opt/vc/bin/vcgencmd measure_temp')
+            for line in stdout:
+                h = re.findall(r'[\d+.]+', line)[0]
+            sleep(10)
     stdin, stdout, stderr = client.exec_command(command)
     results = []
     for line in stdout:
@@ -89,8 +93,8 @@ data['nice'] = nice_flag
 sdat = data[['metric', 'nice', 'units', 'measure']]
 
 # Aggregate statistics
-data_av = data.groupby(['metric', 'units', 'nice']).mean()
-data_sd = data.groupby(['metric', 'units', 'nice']).std()
+data_av = sdat.groupby(['metric', 'units', 'nice']).mean()
+data_sd = sdat.groupby(['metric', 'units', 'nice']).std()
 data_av.columns = ['mean']
 data_sd.columns = ['standard deviation']
 data_stats = data_av.join(data_sd)
